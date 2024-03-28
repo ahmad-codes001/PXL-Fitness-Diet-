@@ -1,0 +1,271 @@
+@media all and (max-width:790px ){  
+.container1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.container2{
+  width: 160%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-left: 18%;
+}
+.buy{
+  width: 247%;
+}
+.box2{
+  margin-top: 5%;
+}
+.box3{
+  margin-top: 5%;
+}
+
+.main123{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+.rightside{
+  width: 90%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.rightside img{
+  width: 200%;
+  margin-left: 100%;
+}
+.btn3{
+  display: flex;
+  width: 73%;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footermenu{
+  display: flex;
+  flex-direction: row;
+}
+.ftr{
+  width: 167%;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+}
+
+}
+
+
+body{
+  font-family: 'inter', sans-serif;
+  background-color: #eeeaea66;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Header Section  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 7px 13px 0 rgba(0,0,0,.1);
+  background-color: white;
+}
+.logopxl {
+  max-width: 100px;
+  margin-left: 144px;
+}
+.adminimage {
+  margin-right: 144px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.navcenter {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.menu li {
+  margin-right: 30px;
+  text-align: center;
+}
+.text2 {
+  text-decoration: underline #f16623;
+}
+.btn {
+  padding: 8px 19px;
+  background-color: #f16623;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* First Inner Section */
+
+.container1 {
+  display: flex;
+  margin-top: 60px;
+}
+.buy h3 {
+  width: 100%;
+  font-size: 50px;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+  width: 50%;
+}
+.highlight {
+  color: #f16623;
+}
+.search-container {
+  position: relative;
+  width: 300px;
+  margin-top: 30px;
+}
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.search-icon {
+  position: absolute;
+  top: 51%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.rightside {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.image1 {
+  width: 50%;
+}
+
+/* 2nd Inner Section */
+
+.main123 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.box1 {
+  box-shadow: 0 7px 13px 0 rgba(0,0,0,.1);;
+
+  border-color: #f16623;
+  width: 360px;
+  height: 512px;
+  border-radius: 20px 20px 20px 20px;
+}
+.box2 {
+  box-shadow: 0 7px 13px 0 rgba(0,0,0,.1);;
+  width: 360px;
+  height: 512px;
+  border-radius: 20px 20px 20px 20px;
+}
+.box3 {
+  box-shadow: 0 7px 13px 0 rgba(0,0,0,.1);;
+  width: 360px;
+  height: 512px;
+  border-radius: 20px 20px 20px 20px;
+}
+.imgrectangle {
+  width: 358px;
+}
+.powder {
+  margin-top: -3%;
+  padding: 7%;
+}
+.btn3 {
+  margin-top: 5%;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+.btn2 {
+  margin-left: 38%;
+  margin-right: 62%;
+  margin-top: 5%;
+  border-radius: 2px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10%;
+  background: #000000;
+  width: 100%;
+}
+
+.firt {
+  padding-top: 6%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+.footermenu {
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  margin-top: 2%;
+  justify-content: center;
+}
+.text {
+  color: white;
+}
+.para {
+  justify-content: center;
+  color: #fff;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 2%;
+}
+.icon {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 3%;
+  justify-content: center;
+  padding-left: 40%;
+  padding-right: 40%;
+  justify-content: space-between;
+  margin-bottom: -3%;
+}
+.footerimage{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left{
+  width: 37%;
+
+}
+.right{
+align-items: right;
+margin-left: 25%;
+  width: 37%;
+}
